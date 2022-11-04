@@ -15,5 +15,5 @@ class HomePage:
             print("home page is displayed")
             return True
         except:
-            print("home page is not displayed")
+            print("home page is not displayed - failed")
             return False
