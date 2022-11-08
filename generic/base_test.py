@@ -16,7 +16,10 @@ class BaseTest:
     def init_driver(self):
         pfile=Properties()
         #open the property file
-        pfile.load(open("../config.properties"))
+        try :
+            pfile.load(open("../config.properties"))
+        except:
+            pfile.load(open("config.properties"))
         #pfile.load(open('../config.properties'))
         # get the value by specifying the key
         browser = pfile['browser']
