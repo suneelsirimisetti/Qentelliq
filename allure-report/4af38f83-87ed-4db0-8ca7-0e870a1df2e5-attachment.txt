@@ -1,4 +1,0 @@
-launched chrome browser
-xl cell value is :  admin
-xl cell value is :  manager
-home page is displayed
